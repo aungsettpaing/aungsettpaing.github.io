@@ -7,9 +7,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jtimeline.css">
     <!-- custom -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="assets/js/aos/aos.css" rel="stylesheet">
@@ -32,7 +36,7 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Resume</a>
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -48,13 +52,8 @@
                 <h1 class="home-title">Hi, it's me Aung</h1>
                 <p class="home-desc">I'm <span class="" data-typed-items="">a Machine Learning Engineer at Iconic Data Japan</span></p>
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     <a href="#" class="medium"><i class="bx bxl-medium"></i></a>
-                    <a href="#" class="telegram"><i class="bx bxl-telegram"></i></a>
                     <a href="#" class="github"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
@@ -72,36 +71,110 @@
                 </div>
                 <div class="col-lg-9 pt-4 pt-lg-0 content">
                     <div id="about-section">
-                        <h2>Who I AM</h2>
+                        <h2>Aung Sett Paing <br><small class="profile-position">Machine Learning Engineer, Iconic Data Japan</small></h2>
                         <p>
-                            My name is Aung Sett Paing and I am currently living in Yangon, Myanmar. I am also a master thesis student (but suspended due to the country's situation). But I obtained the bachelor degree in computer science in 2018. I have had around 4 years of professional experience in AI industry and a year of internship experience in three different companies including Telenor Myanmar.
+                            My name is Aung Sett Paing and I am currently living in Yangon, Myanmar. I obtained the bachelor degree in <b>Computer Science</b> in 2018 and finished the master coursework in December, 2018 (My thesis is specialized on text summarization and it is still ongoing).
                         </p>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Current Position:</strong> <span>Machine Learning Engineer</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aung.sett.paing.24@gmail.com</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+95 450 529 645</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Yangon, Myanmar</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                        <p>
+                            Now, I am remotely working as a Machine learning engineer at Iconic Data Japan since January 2022. I have been experimenting and developing the chatbot system platform for English and Japanese languages. Moreover, I have extensive knowledge of text representation and processing including intent classification, syllable and word segmentation (for Burmese language).
+                        </p>
+                        <p>
+                            I have a strong interest in machine learning, deep learning, and data science for <strong>natural language processing</strong>.
+                        </p>                        
                 </div>
             </div>
             <div class="row">
-                <div id="about-section">
-                    <h2>What I am doing</h2>
-                    <h4>Machine Learning Engineer</h4>
-                    <p>
-                        I am currently working as a machine learning engineer remotely for Iconic Data Japan. I am taking the responsibilities in the chatbot development.
-                    </p>
-                    <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-                    </p>
-                </div>
-            </div>
+                            <div class="col-lg-12">
+                                <div id="jtimeline-demo" class="jtimeline">
+                                    <ul class="jtimeline-events">
+                                        <li class="jtimeline-event is-active" data-timestamp="1600000000">
+                                            <p>
+                                                <b>2022</b> <br>
+                                                <small>ML Engineer @ IDJ</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600000500">
+                                            <p>
+                                                <b>2020</b> <br>
+                                                <small>Joined NLP Workshop and Presented my thesis, "Text Summarization Using RNN"</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600001000">
+                                            <p>
+                                                <b>2019</b> <br>
+                                                <small>AI Developer @ UMG</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600002000">
+                                            <p>
+                                                <b>Dec, 2018</b> <br>
+                                                <small>Finished Master Coursework</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600003000">
+                                            <p>
+                                                <b>Feb, 2018</b> <br>
+                                                <small>Graduated from UCSY</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600004000">
+                                            <p>
+                                                <b>2018</b> <br>
+                                                <small>1st Runner Up in ADSE National Level</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600005000">
+                                            <p>
+                                                <b>2018</b> <br>
+                                                <small>Winner in ICPC National Level</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600006000">
+                                            <p>
+                                                <b>2017</b> <br>
+                                                <small>Internship @ Huawei Myanmar</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600007000">
+                                            <p>
+                                                <b>2017</b> <br>
+                                                <small>Chosen for Huawei Seeds For the Future @ Beijing</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600008000">
+                                            <p>
+                                                <b>2017</b> <br>
+                                                <small>Graduation Internship @ Telenor Myanmar</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600009000">
+                                            <p>
+                                                <b>2017</b> <br>
+                                                <small>Graduation Internship @ Telenor Myanmar</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600010000">
+                                            <p>
+                                                <b>2015</b> <br>
+                                                <small>First Time Internship @ New Westminster Insitute</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600011000">
+                                            <p>
+                                                <b>2012</b> <br>
+                                                <small>Finished High School and Joined UCSY</small>
+                                            </p>
+                                        </li>
+                                        <li class="jtimeline-event" data-timestamp="1600012000">
+                                            <p>
+                                                <b>Born in 1995</b> <br>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </div>
     </section>
     <!-- Portfolio Section -->
@@ -111,129 +184,277 @@
                 <h2>Portfolio</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
-            <div class="row">
+            <div>
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter=".filter-article">Article</li>
+                        <li data-filter=".filter-repo">Repo</li>
+                        <li data-filter=".filter-project">Project</li>
+                        <li data-filter=".filter-certificate">Certificate</li>
                     </ul>
                 </div>
                 <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-article">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-medium"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Medium Article</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Medium</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-article">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-medium"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Medium Article</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Medium</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-article">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-medium"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Medium Article</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Medium</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-repo">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-github"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Github Repo</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Github</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-repo">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-github"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Github Repo</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Github</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-repo">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-brands fa-github"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Github Repo</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Github</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-project">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-rocket"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Project</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Project</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-project">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-rocket"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Project</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Project</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-project">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-rocket"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Project</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">Visit Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Website Development</h4>
+                                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <a href="#" class="btn btn-success">View Certificate</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -241,15 +462,299 @@
                 </div>
             </div>
     </section>
+    <!-- Resume Section -->
+    <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Resume</h2>
+                    <p>Click <a href="https://drive.google.com/file/d/18Xyk7_ZUPYRDLqbMRcOKeBXQzMtPQ0me/view?usp=sharing" target="_blank" style="text-decoration: none;">here <i class="fa-solid fa-arrow-up-right-from-square"></i></a> to see more of my latest resume. But here are the hightlights of my professional experience and education.</p>
+                </div>
+                <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Master of Computer Science</h4>
+                        <h5>2018 - Present</h5>
+                        <p><em>University of Computer Studies, Yangon</em></p>
+                        <p>Majored in Knowledge Engineering and the thesis completion is already halfway and the title is "Text Summarization using Recurrent Neural Network"</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Bachelor of Computer Science</h4>
+                        <h5>2012 - 2017</h5>
+                        <p><em>University of Computer Studies, Yangon</em></p>
+                    </div>
+
+
+                    <h3 class="resume-title">Skills</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Technology Skills</h4>
+                        <div class="skills-content">
+                            <div class="progress">
+                                <span class="skill">Python <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Django <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">API <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">SQL <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">HTML <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">CSS <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">JavaScript <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Scikit Learn <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Tensorflow <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                <h3 class="resume-title">Professional Experience</h3>
+                <div class="resume-item">
+                    <h4>Machine Learning Engineer</h4>
+                    <h5>2022 - Present</h5>
+                    <p><em>Iconic Data Japan </em></p>
+                    <ul>
+                        <li>Responsible in the experimenting and developing of the chatbot system platform and the slack integration.</li>
+                    </ul>
+                </div>
+                <div class="resume-item">
+                    <h4>AI and NLP Research Developer</h4>
+                    <h5>2019 - 2021</h5>
+                    <p><em>UMG Company Limited, Myanmar</em></p>
+                    <ul>
+                        <li>Responsible in Speech-to-text, Chatbot system and Text-to-speech projects from research, development, deployment to the delivery.</li>
+                    </ul>
+                </div>
+
+                <h3 class="resume-title">Internship Experience</h3>
+                <div class="resume-item">
+                    <h4>Network Planning and Design Intern</h4>
+                    <h5>2018 - 2018</h5>
+                    <p><em>Huawei Myanmar, Yangon</em></p>
+                    <ul>
+                        <li>Responsible in the documentation and assist for the site maintenance</li>
+                    </ul>
+                </div>
+                <div class="resume-item">
+                    <h4>Business Intelligence Intern</h4>
+                    <h5>2017 - 2017</h5>
+                    <p><em>Telenor Myanmar, Yangon</em></p>
+                    <ul>
+                        <li>Responsible in the research of BI systems used by different telecoms and reporting.</li>
+                </div>
+                <div class="resume-item">
+                    <h4>PHP Developer Intern</h4>
+                    <h5>2015 - 2016</h5>
+                    <p><em>New Westminster Institute, Yangon</em></p>
+                    <ul>
+                        <li>Responsible in the development of the classroom management system using Code Ignitor framework</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </div>
+
+    </div>
+</section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Yangon, Myanmar</p>
+                        </div>
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>aung.sett.paing.24@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="mobile">
+                            <i class="bi bi-phone"></i>
+                            <h4>Mobile</h4>
+                            <p>+95 9450 529 645</p>
+                        </div>
+                        <div class="competition-platform">
+                            <i class="bi bi-browser-chrome"></i>
+                            <h4>Kaggle and LeetCode</h4>
+                            <p>https://www.kaggle.com/aungsettpaing</p>
+                            <p>https://leetcode.com/aungsettpaing/</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="social-linkedin">
+                            <i class="bi bi-linkedin"></i>
+                            <h4>LinkedIn:</h4>
+                            <p>https://www.linkedin.com/in/aungsettpaing/</p>
+                        </div>
+                        <div class="social-media">
+                            <i class="bi bi-share"></i>
+                            <h4>Social Links:</h4>
+                            <div class="social-contact-links">
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>                                
+                                <a href="#" class="medium"><i class="bx bxl-medium"></i></a>
+                                <a href="#" class="github"><i class="bx bxl-github"></i></a>
+                                <a href="#" class="telegram"><i class="bx bxl-telegram"></i></a>
+                                <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                Referenced <strong><span>MyResume</span></strong> for this site. 
+            </div>
+        </div>
+    </footer><!-- End Footer -->
     <script src="assets/js/aos/aos.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+    <script src="assets/js/jtimeline.js"></script>
+    <script>
     $(function() {
         $(document).scroll(function() {
             var $nav = $(".fixed-top");
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
+
+    // external js: isotope.pkgd.js
+
+    const select = (el, all = false) => {
+        el = el.trim()
+        if (all) {
+            return [...document.querySelectorAll(el)]
+        } else {
+            return document.querySelector(el)
+        }
+    }
+
+    /* Easy event listener function
+     */
+    const on = (type, el, listener, all = false) => {
+        let selectEl = select(el, all)
+        if (selectEl) {
+            if (all) {
+                selectEl.forEach(e => e.addEventListener(type, listener))
+            } else {
+                selectEl.addEventListener(type, listener)
+            }
+        }
+    }
+
+    window.addEventListener('load', () => {
+        let portfolioContainer = select('.portfolio-container');
+        if (portfolioContainer) {
+            let portfolioIsotope = new Isotope(portfolioContainer, {
+                itemSelector: '.portfolio-item',
+                percentPosition: true,
+                layoutMode: 'fitRows',
+            });
+
+            let portfolioFilters = select('#portfolio-flters li', true);
+
+            on('click', '#portfolio-flters li', function(e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function(el) {
+                    el.classList.remove('filter-active');
+                });
+                this.classList.add('filter-active');
+
+                portfolioIsotope.arrange({
+                    filter: this.getAttribute('data-filter')
+                });
+                portfolioIsotope.on('arrangeComplete', function() {
+                    AOS.refresh()
+                });
+            }, true);
+        }
+
+    });
+
+    $(function() {
+        $('#jtimeline-demo').jTimeline({
+            // minimum spacing between events (HORIZONTAL space between events)
+            minimumSpacing: 200,
+
+            // scrolling (translateX) step size (HORIZONTAL scrolling speed)
+            step: 500,
+
+            // character for left arrow
+            leftArrow: "ᐸ",
+            rightArrow: "ᐳ",
+
         });
     });
     </script>
