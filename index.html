@@ -188,7 +188,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Portfolio</h2>
-                <p>I learn, I take notes, I code and I document.</p>
+                <p>I study, I take notes, I code, I document and I share.</p>
             </div>
             <div>
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -321,7 +321,9 @@
                                         </p>
                                     </div>
                                     <div class="card-button article-button">
-                                        <a href="https://drive.google.com/file/d/1SSBA0y7L-D6cckORAtSA2hI1S1yzKSLm/view?usp=sharing" class="btn btn-success">View Certificate</a>
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('google-data-analytics-coursera')">View Certificate</button>
                                     </div>
                                 </div>
                             </div>
@@ -342,7 +344,9 @@
                                         </p>
                                     </div>
                                     <div class="card-button article-button">
-                                        <a href="https://drive.google.com/file/d/10FQxVLRXdUzyJyluyUuMtU9WchxTMsGu/view?usp=sharing" class="btn btn-success">View Certificate</a>
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('sql-coursera')">View Certificate</button>
                                     </div>
                                 </div>
                             </div>
@@ -363,7 +367,101 @@
                                         </p>
                                     </div>
                                     <div class="card-button article-button">
-                                        <a href="https://drive.google.com/file/d/1idrQxle54oZo6Dpy0uJQjFVATw6YqH1_/view?usp=sharing" class="btn btn-success">View Certificate</a>
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('nlp-coursera')">View Certificate</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Intermediate Machine Learning, 2022</h4>
+                                        <p class="card-text mt-3">An Intermediate Machine Leanring course on Kaggle
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('intermediate-ml-kaggle')">View Certificate</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Intro to Machine Leanring, 2022</h4>
+                                        <p class="card-text mt-3">An introduction to Machine Learning course on Kaggle
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('intro-ml-kaggle')">View Certificate</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Data Cleaning, 2022</h4>
+                                        <p class="card-text mt-3">A data cleaning course on Kaggle
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('data-clean-kaggle')">View Certificate</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+                        <div class="portfolio-wrap">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row card-category">
+                                        <div class="col"><i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <div class="col" style="text-align: right;"><small>Certificate</small></div>
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-title mt-3">Pandas, 2022</h4>
+                                        <p class="card-text mt-3">A Pandas course on Kaggle
+                                        </p>
+                                    </div>
+                                    <div class="card-button article-button">
+                                        <button class="btn" class="btn btn-primary" 
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter" 
+                                        onclick="showCertificate('pandas-kaggle')">View Certificate</button>
                                     </div>
                                 </div>
                             </div>
@@ -535,6 +633,30 @@
             </div>
         </div>
     </footer><!-- End Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" data-bs-backdrop="static" 
+            role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="certificate-title"></h5>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <embed id="pdf-certificate-holder" src="" width="100%" height="500px" type="application/pdf" style="display: none;">
+                <img id="img-certificate-holder" src="" class="img-fluid" style="display: none;">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <script src="assets/js/aos/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -619,6 +741,51 @@
 
         });
     });
+
+
+    function showCertificate(certificate){
+        var certificate_title = document.getElementById("certificate-title");
+        certificate_title.innerHTML = certificate;
+
+        var img_certificate_holder = document.getElementById("img-certificate-holder");
+        var pdf_certificate_holder = document.getElementById("pdf-certificate-holder");
+
+        if(certificate == "google-data-analytics-coursera"){
+            pdf_certificate_holder.src = "assets/pdf/Google Data Analytics Professional Certificate.pdf";
+            pdf_certificate_holder.style.display = "block";
+            img_certificate_holder.style.display = "none";
+        }
+        else if(certificate == "sql-coursera") {
+            pdf_certificate_holder.src = "assets/pdf/SQL Specialization.pdf";
+            pdf_certificate_holder.style.display = "block";
+            img_certificate_holder.style.display = "none";
+        }
+        else if(certificate == "nlp-coursera") {
+            pdf_certificate_holder.src = "assets/pdf/NLP Specialization.pdf";
+            pdf_certificate_holder.style.display = "block";
+            img_certificate_holder.style.display = "none";
+        }
+        else if(certificate == "pandas-kaggle") {
+            img_certificate_holder.src = "assets/pdf/Pandas.png";
+            pdf_certificate_holder.style.display = "none";
+            img_certificate_holder.style.display = "block";
+        }
+        else if(certificate == "intro-ml-kaggle") {
+            img_certificate_holder.src = "assets/pdf/Intro to Machine Learning.png";
+            pdf_certificate_holder.style.display = "none";
+            img_certificate_holder.style.display = "block";
+        }
+        else if(certificate == "intermediate-ml-kaggle") {
+            img_certificate_holder.src = "assets/pdf/Intermediate Machine Learning.png";
+            pdf_certificate_holder.style.display = "none";
+            img_certificate_holder.style.display = "block";
+        }
+        else if(certificate == "data-clean-kaggle") {
+            img_certificate_holder.src = "assets/pdf/Data Cleaning.png";
+            pdf_certificate_holder.style.display = "none";
+            img_certificate_holder.style.display = "block";
+        }
+    }
     </script>
 </body>
 
